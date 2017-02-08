@@ -25,7 +25,8 @@ This is a basic ACL setup in Laravel 5.3. The following files have been added or
 
 ### Middleware
 
-* CheckRole
+* CheckRole.php
+
 ### Routes
 
 * web.php
