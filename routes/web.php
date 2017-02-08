@@ -21,14 +21,12 @@ Route::get('/home', 'HomeController@index');
 
 Route::get('/admin', [
 	'uses' => 'AdminController@index',
-	'as' => 'admin',
 	'middleware' => 'roles',
 	'roles' => 'admin'
 ]);
 
 Route::get('/user', [
 	'uses' => 'UserController@index',
-	'as' => 'user',
 	'middleware' => 'roles',
 	'roles' => ['user', 'admin']
 ]);
