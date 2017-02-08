@@ -1,20 +1,31 @@
-#Laravel 5.3 ACL (Access Control List)
+# Laravel 5.3 ACL (Access Control List)
 
 This is a basic ACL setup in Laravel 5.3. The following files have been added or modified from the stanard installation:
-## Migrations
+
+### Migrations
+
 * roles
 * users_roles
-## Seeders
+
+### Seeders
+
 * RoleTableSeeder
 * UserRoleTableSeeder
 * UserTableSeeder
-## Models
+
+### Models
+
 * User.php
 * Role.php
-## Controllers
+
+### Controllers
+
 * AdminController.php
 * UserController.php
-## Middleware
+
+### Middleware
+
 * CheckRole
-## Routes
+### Routes
+
 * web.php
